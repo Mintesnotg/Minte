@@ -1,0 +1,274 @@
+body {
+    background-image: url("./assets/17973908.jpg");
+    background-color: #cccccc;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+.intro {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: column;
+}
+
+.intro_font {
+    color: #272e56;
+    font-family: cursive;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 81.5px;
+}
+
+
+.discr_typo {
+    color: #272e56;
+    font-family: cursive;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 44px;
+}
+
+.carrier {
+
+    width: 100%;
+
+
+    padding: 0px 3rem;
+
+
+
+}
+
+.carrier_typo {
+    color: var(--neutrals-n-20, #272e56);
+    font-family: cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+}
+
+article {
+    grid-area: content;
+}
+
+.vector-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+
+}
+
+.homepage-image-container {
+    margin-top: 10rem;
+    height: 0px;
+
+}
+
+.homepage-image-wrapper {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(3deg);
+}
+
+.styling_profile_img {
+    border-radius: 2.25rem
+}
+
+.works_layout {
+
+    text-align: center;
+
+}
+
+.works_typo {
+
+    color: var(--neutrals-n-20, #272e56);
+    font-family: cursive;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.works {
+    margin-top: 5rem;
+}
+
+.card-item {
+    cursor: pointer;
+}
+
+.card-item:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.seeproj {
+    display: flex;
+    justify-content: center;
+}
+
+.btnstyle {
+    width: Hug (81px);
+    height: Hug (48px);
+    top: 283px;
+    left: 339px;
+    padding: 7px;
+    border-radius: 6px;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #7cd1e8;
+
+}
+
+
+
+#accordion .card-header {
+    margin-bottom: 8px;
+
+}
+
+.accordion-title {
+
+
+    padding: 8px 0 8px 50px;
+    background: #213744;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+}
+
+.accordion-title:hover {
+    padding-left: 60px;
+
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background: #213744;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 5px;
+}
+
+.btnstyle:hover {
+    box-shadow: -1px 1px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact_me {
+    background-color: var(--primary-b-400, lightskyblue);
+
+    flex-shrink: 0;
+}
+
+.contact_typo {
+    color: #213744;
+    text-align: center;
+
+    font-family: cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.contact_para {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 100;
+    color: #010b0d;
+    width: 100%;
+
+}
+
+.footer {
+    height: 100%;
+    background-color: #213744;
+}
+
+.footernavs {
+    margin-top: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.footernavs a:hover {
+    color: white;
+    cursor: pointer;
+}
+#home {
+    margin-top: 7rem;
+}
+#work {
+    padding-top: 10%;
+}
+#skills {
+    padding-top: 8%;
+}
+#contact {
+    padding-top: 7%;
+}
+
+.homepage-image-wrapper img:hover {
+
+    border: 2px ridge;
+}
+.card-height {
+    border-radius:10px;
+    border: 1px solid;
+    height: 100%;
+}
+
+.text_area {
+
+    height: 150px;
+}
+
+@media screen and (max-width:375px) {
+    .footer {
+        width: 100%;
+
+    }
+}
+.Homepara {
+    margin-top: 3rem;
+}
+.navposit {
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    position: fixed;
+}
+.text-alignment {
+    text-align:center;
+}
+
+.working_text {
+   
+    font-family: cursive;
+    font-size: 110%;
+    font-weight: 200;
+}
+
