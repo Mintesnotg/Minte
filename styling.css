@@ -287,11 +287,13 @@ article {
     .intro_font {
 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        /* text-wrap: inherit; */
+
 
     }
 
+}
 
+@media screen and (max-width:420px) {
     .wrapping {
         flex-wrap: wrap;
     }
