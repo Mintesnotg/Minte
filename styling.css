@@ -275,3 +275,16 @@ article {
     color: #272e56;
 
 }
+
+@media screen and (max-width:425px) {
+
+    .working_text,
+    .contact_para,
+    .contact_typo,
+    .carrier_typo,
+    .discr_typo,
+    .intro_font {
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
