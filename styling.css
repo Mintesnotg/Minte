@@ -299,3 +299,7 @@ article {
         flex-wrap: wrap;
     }
 }
+.fsize {
+    font-size: 3rem;
+    color: #f5fbff;
+}
