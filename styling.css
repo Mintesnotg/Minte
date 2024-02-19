@@ -74,11 +74,13 @@ article {
 
 }
 
+
+
 .homepage-image-wrapper:hover {
-    border-radius: 2rem ;
+    border-radius: 0.5rem ;
     overflow: hidden;
-    transform: rotate(3deg);
-    box-shadow: inset 0 -1px 0 hsla(201, 63%, 43%, 0.125);
+    animation: image-rotation 2s;
+
 }
 
 .styling_profile_img {
@@ -276,6 +278,16 @@ article {
     font-weight: bold;
     color: #272e56;
 
+}
+@keyframes image-rotation {
+    
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(10deg);
+
+    }
 }
 @keyframes hover-animation {
     from {
