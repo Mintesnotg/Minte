@@ -74,12 +74,15 @@ article {
 
 }
 
+.homepage-image-wrapper {
 
+    transform: rotate(0deg);
+}
 
 .homepage-image-wrapper:hover {
     border-radius: 0.5rem ;
     overflow: hidden;
-    animation: image-rotation 2s;
+    animation: image-rotation 2s alternate-reverse;
 
 }
 
@@ -186,7 +189,6 @@ article {
 .contact_typo {
     color: #213744;
     text-align: center;
-
     font-family: var(--font-family);
     font-size: 40px;
     font-style: normal;
@@ -214,9 +216,11 @@ article {
     text-decoration: none;
 }
 
-.footernavs a:hover {
-    color: white;
+.footernavs .hovi:hover {
+    text-decoration: none;
+    color: rgb(157, 25, 25);
     cursor: pointer;
+    transform: scale(2);
 }
 #home,#contact {
     margin-top: 7rem;
@@ -273,8 +277,9 @@ article {
     font-size: 110%;
     font-weight: 200;
 }
+
 .hovereffect a:hover {
-    animation: hover-animation 2s ease-in both;
+    animation: hover-animation 3s ease-in;
     font-weight: bold;
     color: #272e56;
 
@@ -285,7 +290,7 @@ article {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(10deg);
+        transform: rotate(14deg);
 
     }
 }
