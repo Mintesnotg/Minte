@@ -1,11 +1,17 @@
+
+* {
+    box-sizing: border-box;
+}
+:root {
+
+    --font-family: cursive;
+}
 body {
     background-image: url("./assets/17973908.jpg");
     background-color: #cccccc;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
-
 
 .intro {
     display: flex;
@@ -16,7 +22,7 @@ body {
 
 .intro_font {
     color: #272e56;
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +32,7 @@ body {
 
 .discr_typo {
     color: #272e56;
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 32px;
     font-style: normal;
     font-weight: 100;
@@ -41,7 +47,7 @@ body {
 
 .carrier_typo {
     color: var(--neutrals-n-20, #272e56);
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -66,10 +72,11 @@ article {
 
 }
 
-.homepage-image-wrapper {
-    border-radius: 2rem;
+.homepage-image-wrapper:hover {
+    border-radius: 2rem ;
     overflow: hidden;
     transform: rotate(3deg);
+    box-shadow: inset 0 -1px 0 hsla(201, 63%, 43%, 0.125);
 }
 
 .styling_profile_img {
@@ -85,7 +92,7 @@ article {
 .works_typo {
 
     color: var(--neutrals-n-20, #272e56);
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -139,11 +146,11 @@ article {
     overflow: hidden;
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.25rem;
     font-weight: 700;
     width: 100%;
     text-align: left;
-    transition: all .4s ease-in-out;
+    transition: .4s ease-in-out;
     border-radius: 5px;
 }
 
@@ -169,7 +176,6 @@ article {
 
 .contact_me {
     background-color: var(--primary-b-400, lightskyblue);
-
     flex-shrink: 0;
 }
 
@@ -177,7 +183,7 @@ article {
     color: #213744;
     text-align: center;
 
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -185,7 +191,7 @@ article {
 }
 
 .contact_para {
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 20px;
     font-weight: 100;
     color: #010b0d;
@@ -208,7 +214,7 @@ article {
     color: white;
     cursor: pointer;
 }
-#home {
+#home,#contact {
     margin-top: 7rem;
 }
 #work {
@@ -216,9 +222,6 @@ article {
 }
 #skills {
     padding-top: 8%;
-}
-#contact {
-    padding-top: 7%;
 }
 
 .homepage-image-wrapper img:hover {
@@ -262,7 +265,7 @@ article {
 
 .working_text {
    
-    font-family: cursive;
+    font-family: var(--font-family);
     font-size: 110%;
     font-weight: 200;
 }
