@@ -1,10 +1,12 @@
 
 * {
     box-sizing: border-box;
+
 }
 :root {
 
     --font-family: cursive;
+    --footer-color:200,100%,91%
 }
 body {
     background-image: url("./assets/17973908.jpg");
@@ -212,7 +214,7 @@ article {
 
 .footernavs {
     margin-top: 1.5em;
-    color: white;
+    color:wheat;
     text-decoration: none;
 }
 
@@ -281,7 +283,7 @@ article {
 .hovereffect a:hover {
     animation: hover-animation 3s ease-in;
     font-weight: bold;
-    color: #272e56;
+   
 
 }
 @keyframes image-rotation {
