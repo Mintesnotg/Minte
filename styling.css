@@ -116,11 +116,23 @@ article {
 .card-item {
     cursor: pointer;
 }
+.card-height >img {
 
-.card-item:hover {
-    transition: 0.5s;
-    transform: translateX(2%)
+   aspect-ratio: 16/9;
+   object-fit: cover;
+   object-position: center;
+   
 }
+
+.card>img {
+
+    transition: 200ms transform ease-in-out
+}
+.card:hover >  img {
+
+    transform:translateY(5%)
+}
+
 
 .seeproj {
     display: flex;
