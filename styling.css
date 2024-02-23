@@ -9,9 +9,11 @@
     --footer-color:200,100%,91%
 }
 body {
-    background-image: url("./assets/17973908.jpg");
+    background-image: url("./assets//17973908.jpg");
     background-color: #cccccc;
     background-position:center;
+    object-fit:cover;
+    object-position: center;
     overflow-x: hidden;
 }
 
@@ -113,14 +115,25 @@ article {
     margin-top: 5rem;
 }
 
-.card-item {
-    cursor: pointer;
+.card {
+    background-color: hsla(var(--footer-color), 0.5)
+}
+.card-height >img {
+
+   aspect-ratio: 16/9;
+   object-position: center;
+   
 }
 
-.card-item:hover {
-    transition: 0.5s;
-    transform: scale(1.02);
+.card>img {
+
+    transition: 200ms transform ease-in-out
 }
+.card:hover >  img {
+
+    transform:translateY(5%)
+}
+
 
 .seeproj {
     display: flex;
@@ -281,7 +294,7 @@ article {
 }
 
 .hovereffect a:hover {
-    animation: hover-animation 3s ease-in;
+    animation: hover-animation 3s ease-out;
     font-weight: bold;
    
 
@@ -331,8 +344,9 @@ article {
     font-size: 3rem;
     color: #f5fbff;
 }
-.iconhover a:hover {
+.iconhover a > i:hover {
 
-    /* transition: 0.5s; */
-    transform: scale(1.2);
+    transform: scale(1.5);
+    color: black;
+
 }
